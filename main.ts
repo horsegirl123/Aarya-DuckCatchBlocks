@@ -164,5 +164,5 @@ let duck = sprites.create(img`
 duck.setPosition(Math.randomRange(0,scene.screenWidth()),Math.randomRange(0, scene.screenHeight()))
 
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite: Sprite, otherSprite: Sprite) {
-    duck.setPosition(Math.randomRange(0, scene.screenWidth()), Math.randomRange(0, scene.screenHeight()))
-}) 
+    duck.setPosition(Math.randomRange(0,scene.screenWidth()), Math.randomRange(0,scene.screenHeight()))
+})
